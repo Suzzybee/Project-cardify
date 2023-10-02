@@ -71,6 +71,30 @@ header nav div .bi {
   width: 50em;
 }
 
+.sect-2 marquee {
+  margin-top: 4em;
+  background-color: rgb(14, 136, 71);
+  padding: 2em 3em 1em 3em;
+  color: #ffffff;
+  font-size: 1.7em;
+  border-top-right-radius: 2em;
+  border-top-left-radius: 2em;
+}
+.sect-2 .marquee-container {
+  padding: 2em 6em;
+  background-color: rgb(255, 247, 230);
+  border-top-right-radius: 2em;
+  border-top-left-radius: 2em;
+}
+.sect-2 .marquee-container h1 {
+  font-size: 3em;
+  text-justify: justify;
+}
+
+.sect-3 .container .row .column-2 .accordion {
+  padding-bottom: 2em;
+}
+
 @media (max-width: 1440px) {
   .sect-1 .container .row .column1 {
     margin-top: -4em;
@@ -164,6 +188,9 @@ header nav div .bi {
   .sect-1 .container .row #page4-pix-container img {
     width: 35em;
   }
+  .accordion {
+    width: 100% !important;
+  }
 }
 @media (max-width: 426px) {
   header nav {
@@ -196,7 +223,7 @@ header nav div .bi {
     margin-left: -2em;
   }
 }
-@media (max-width: 426px) {
+@media (max-width: 376px) {
   .sect-1 .container .row .column1 {
     margin-top: 4em;
   }
@@ -218,7 +245,7 @@ header nav div .bi {
     margin-left: -2em;
   }
 }
-@media (max-width: 426px) {
+@media (max-width: 321px) {
   .sect-1 .container .row .column1 {
     margin-top: 4em;
   }
